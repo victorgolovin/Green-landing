@@ -1,0 +1,478 @@
+body {
+    min-width: 1903px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+
+.container-nav {
+    height: 840px;
+    width: 1903px;
+    margin: 0 auto;
+}
+
+.nav-img {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 720px;
+    top: 64px;
+}
+
+.nav-main-title {
+    position: absolute;
+    font-weight: 800;
+    top: 58px;
+    left: 818px;
+    font-size: 27px;
+    line-height: 32px;
+    color: #fff;
+    letter-spacing: 6.5px;
+}
+
+.nav-btn {
+    position: absolute;
+    width: 374px;
+    height: 64px;
+    top: 204px;
+    left: 765px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    border-radius: 59px;
+    border: solid 0px;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-btn:hover {
+    color: #fff;
+    background-color: rgba(72, 146, 79, 0.5);
+    transition: 0.5s;
+}
+
+.nav-info>h2 {
+    position: absolute;
+    top: 285px;
+    left: 460px;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 144px;
+    line-height: 134.5px;
+    color: #fff;
+}
+
+.nav-link {
+    position: absolute;
+    top: 654px;
+    left: 862px;
+    padding: 21px 53px 22px 53px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #48924F;
+    border-radius: 35px;
+    background-color: #fff;
+}
+
+.nav-link:hover {
+    color: #fff;
+    background-color: rgba(72, 146, 79, 0.5);
+    transition: 0.5s;
+}
+
+/* main */
+/* services section */
+
+.container-services {
+    width: 1903px;
+    height: 847px;
+    margin: 0 auto;
+    background-color: #E5E5E5;
+}
+
+.services-contant {
+    margin: 0 auto;
+    
+}
+
+.services-title {
+    position: relative;
+    padding-top: 50px;
+    margin: 0px 0 50px 0;
+    text-align: center;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 96px;
+    color: #828282;
+}
+
+.services-title::after {
+    content: "";
+    position: absolute;
+    width: 109px;
+    height: 94px;
+    top: 100px;
+    left: 806px;
+    background-image: url(..//files/Group\ 522.png);
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-list-wrapper {
+    width: 385px;
+    height: 504px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.services-list-wrapper:nth-last-child(3) {
+    margin-left: 352px;
+}
+
+.services-list-wrapper:nth-last-child(1) {
+    margin-right: 352px;
+}
+
+.services-list-wrapper>img {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.services-list-wrapper>h4 {
+    margin: 30px 30px 10px 30px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D4D14;
+}
+
+.services-list-wrapper>p {
+    margin: 0 30px 30px 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0D4D14;
+}
+
+.services-link-wrapper {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.services-link {
+    text-align: center;
+    text-decoration: none;
+    padding: 21px 53px 22px 53px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #48924F;
+    border-radius: 35px;
+    background-color: #fff;
+}
+
+.services-link:hover {
+    color: #fff;
+    background-color: rgba(72, 146, 79, 0.5);
+    transition: 0.5s;
+}
+
+/* about-us section */
+
+.comtainer-about-us {
+    min-width: 1903px;
+    margin: 0 auto;
+}
+
+.about-us-contant>h3 {
+    position: relative;
+    padding-top: 50px;
+    margin: 0px 0 50px 0;
+    text-align: center;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 96px;
+    color: #828282;
+    margin-bottom: 50px;
+}
+
+.about-us-contant>h3::after {
+    content: "";
+    position: absolute;
+    width: 109px;
+    height: 94px;
+    top: 100px;
+    left: 1052px;
+    rotate: -3.6deg;
+    background-image: url(../files/Group\ 522.png);
+}
+
+.about-us-img {
+    position: relative;
+    width: 1903px;
+    height: 732px;
+}
+
+.about-us-text {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about-us-text>li {
+    position: absolute;
+    text-align: center;
+    width: 360px;
+    height: 408px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.about-us-text>li:nth-child(1) {
+    bottom: 160px;
+    left: 352px;
+}
+
+.about-us-text>li:nth-child(2) {
+    bottom: 160px;
+    left: 772px;
+}
+
+.about-us-text>li:nth-child(3) {
+    bottom: 160px;
+    left: 1191px;
+}
+
+/* testymonials section */
+
+.container-testymonials {
+    width: 1203px;
+    margin: 0 auto;
+}
+
+.testymonials-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.testymonials-list-wrapper {
+    position: relative;
+    width: 577px;
+    height: 233px;
+    border: #6CB981 solid 1px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.testymonials-list-wrapper:nth-child(1) {
+    margin: 70px 45px 45px 0;
+}
+
+.testymonials-list-wrapper:nth-child(2) {
+    margin: 70px 0 45px 0;
+}
+
+.testymonials-list-wrapper:nth-child(3) {
+    margin-right: 45px;
+}
+
+.testymonials-contant>h3 {
+    position: relative;
+    padding-top: 50px;
+    margin: 0px 0 50px 0;
+    text-align: center;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 96px;
+    color: #828282;
+    margin-bottom: 70px;
+}
+
+.testymonials-list-wrapper>h4 {
+    margin: 30px 124px 13px 0px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6CB981;
+}
+
+.testymonials-list-wrapper>p {
+    text-align: left;
+    margin: 0 0 0px 124px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #0D4C14;
+}
+
+.testymonials-list-wrapper>h4::after {
+    content: '';
+    position: absolute;
+    left: 25px;
+    width: 80px;
+    height: 80px;
+    background-image: url(..//files/Ellipse\ 1.png);
+}
+
+.testymonials-bin-group {
+    box-sizing: border-box;
+    margin: 10px 214px 30px 0px;
+}   
+
+.testymonials-bin-group>button {
+    width: 20px;
+    height: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.testymonials-bin-group>button>img {
+    margin-left: -6px;
+}
+
+/* .contacts section */
+
+.container-contacts {
+    width: 1903px;
+    height: 532px;
+    background-color: #FCFCFC;
+}
+
+.container-contacts>h3 {
+    position: relative;
+    padding-top: 50px;
+    margin: 0px 0 50px 0;
+    text-align: center;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 96px;
+    color: #828282;
+    margin-bottom: 70px;
+}
+
+.contacts-contant {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.left-contact-info {
+    display: block;
+    width: 374px;
+    height: 266px;
+    margin-right: 100px;
+}
+
+.left-contact-info-list>button {
+    
+    width: 374px;
+    height: 56px;
+    background-color: #9FDEA9;
+    border: none;
+    border-radius: 61px;
+    margin-bottom: 14px;
+}
+
+.left-contact-info-last-list>button {
+    width: 168px;
+    height: 56px;
+    border: #4DB96B solid 3px;
+    border-radius: 61px;
+    background-color: #fff;
+    margin-left: 100px;
+}
+
+.right-contact-info-mail {
+    display: block;
+    position: relative;
+    width: 110px;
+    height: 24px;
+    margin: 0 0 30px 45px;
+    font-family: 'TT Hoves Pro Trial', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.43px;
+    text-decoration: none;
+    color: #333333;
+}
+
+.right-contact-info-mail::after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url(..//files/ic_round-mail.png);
+    left: -45px;
+    top: -3px;
+}
+
+.right-contact-info-tel {
+    display: block;
+    position: relative;
+    width: 110px;
+    height: 24px;
+    margin: 0 0 30px 45px;
+    font-family: 'TT Hoves Pro Trial', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.43px;
+    text-decoration: none;
+    color: #333333;
+}
+
+.right-contact-info-tel::after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url(..//files/ic_round-call.png);
+    left: -45px;
+    top: -3px;
+}
+
+.right-contact-info-location {
+    display: block;
+    position: relative;
+    height: 24px;
+    margin: 0 0 30px 45px;
+    font-family: 'TT Hoves Pro Trial', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.43px;
+    text-decoration: none;
+    color: #333333;
+}
+
+.right-contact-info-location::after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url(..//files/ic_round-location-on.png);
+    left: -45px;
+    top: -3px;
+}
+
+/* footer */
+
+.container-footer {
+    width: 1903px;
+    height: 145px;
+    margin: 0 auto;
+    background-color: #324B29;
+}
